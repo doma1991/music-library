@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
     "trailingComma": "es5",
     "tabWidth": 2,
     "semi": true,
     "singleQuote": true
+=======
+{
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+>>>>>>> bb7f51bd529c0da8b72d390748c4bf4f476d9574
   }
