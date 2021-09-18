@@ -1,23 +1,15 @@
 {
-<<<<<<< HEAD
   "name": "Music-library",
-=======
-  "name": "music-library",
->>>>>>> bb7f51bd529c0da8b72d390748c4bf4f476d9574
   "version": "1.0.0",
   "description": "\"# music-library\"",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "pretest": "node utils/create-database.js test",
     "prestart": "node utils/create-database.js",
     "start": "nodemon -r dotenv/config index.js",
     "test":"mocha tests/**/*.js --exit --recursive --timeout 60000 --file ./tests/test-setup.js",
     "posttest": "node utils/drop-database.js"
-    
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> bb7f51bd529c0da8b72d390748c4bf4f476d9574
+
   },
   "repository": {
     "type": "git",
@@ -31,7 +23,6 @@
   },
   "homepage": "https://github.com/muudi10/music-library#readme",
   "devDependencies": {
-<<<<<<< HEAD
     "chai": "^4.3.4",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
@@ -43,9 +34,5 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^2.3.0"
-=======
-    "eslint": "^7.32.0",
-    "eslint-plugin-react": "^7.24.0"
->>>>>>> bb7f51bd529c0da8b72d390748c4bf4f476d9574
   }
 }

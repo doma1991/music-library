@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "env": {
       "commonjs": true,
@@ -16,37 +15,3 @@
     },
     "rules": {}
   }
-=======
- {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "commonjs": true,
-    "es6": true,
-    "node": true,
-    "mocha": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-        
-    ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-      },
-
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
-}
->>>>>>> bb7f51bd529c0da8b72d390748c4bf4f476d9574

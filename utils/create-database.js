@@ -23,7 +23,18 @@ const setUpConnection = async () => {
       name VARCHAR(25),
       genre VARCHAR(25)
     )`);
-  db.close()
+    await db.query(`CREATE TABLE IF NOT EXISTS Album(
+      id INT PRIMARY KEY auto_increment,
+            name VARCHAR(25),
+            year INT,
+            Artistid INT,
+            FOREIGN KEY (Artistid) REFERENCES Artist(id)
+
+    )`)
+    db.close()
+
+    
+
   } catch (error) {
     console.log(
       `Your environment variables might be wrong. Please double check .env file`
